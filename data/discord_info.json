@@ -1,9 +1,17 @@
 {
-    "babylon" :{
+    "serverName" :{
         "from_channel_list" : ["1075371070493831259"],
         "to_channel" : "1075371070493831259",
         "guild_id" : "",
         "mods" : ["1", "2"],
         "keywords" : ["停止说话", "禁止发言", "123木头人"]
+    },
+    "igsyf" :{
+        "from_channel_list" : ["1100424202558902385"],
+        "to_channel" : "1100424202558902385",
+        "guild_id" : "",
+        "mods" : ["1", "2"],
+        "keywords" : ["停止说话", "禁止发言", "123木头人"]
     }
+    
 }

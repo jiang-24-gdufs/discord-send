@@ -257,8 +257,8 @@ class DiscordUtil():
 if __name__ == '__main__':
 
     data = my_format_data(start_num=1, end_num=25)
-    # project babylon
-    project_channel = project_info('babylon')
+    # project igsyf
+    project_channel = project_info('igsyf')
 
     # # 获取token,自动填充到discord.csv文件
     # for d in data:
@@ -268,7 +268,7 @@ if __name__ == '__main__':
     for d in data:
         print(f'第 {d["discord_id"]} 个账户')
         discord = DiscordUtil()
-        message = get_discord_messages("babylon", int(d['discord_id']) - 1)
+        message = get_discord_messages("igsyf", int(d['discord_id']) - 1)
         # print(d['discord_token'], d['proxy'], message, project_channel['to_channel'])
         result = discord.send_message(d['discord_token'], d['proxy'], message, project_channel['to_channel'])
         if not result:  # 假设 send_message 在失败时返回 False

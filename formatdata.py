@@ -69,6 +69,6 @@ def get_discord_messages(project, idx):
 
 if __name__ == '__main__':
     my_format_data = my_format_data(1, 20)
-    my_project = project_info('babylon')
-    msg = get_discord_messages('babylon', 0)
+    my_project = project_info('igsyf')
+    msg = get_discord_messages('igsyf', 0)
     print(my_format_data, my_project,msg)

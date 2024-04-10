@@ -63,7 +63,7 @@ dingding_id = 'xxxxx'
 - channel_messages.json
 ```
 {
-  "babylon": [
+  "serverName": [
     "!faucet 领水地址",
     "!faucet 领水地址",
      // 账号多少个就多少个
